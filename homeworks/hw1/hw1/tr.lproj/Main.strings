@@ -1,0 +1,72 @@
+
+/* Class = "UIButton"; configuration.title = "Lactose-Free Milk"; ObjectID = "5Rn-A7-7kd"; */
+"5Rn-A7-7kd.configuration.title" = "Laktozsuz Süt";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5Rn-A7-7kd"; */
+"5Rn-A7-7kd.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Almond Milk"; ObjectID = "6Qi-jQ-XE3"; */
+"6Qi-jQ-XE3.configuration.title" = "Badem Sütü";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6Qi-jQ-XE3"; */
+"6Qi-jQ-XE3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 5.12"; ObjectID = "9Cj-Jn-kxN"; */
+"9Cj-Jn-kxN.text" = "195 ₺";
+
+/* Class = "UILabel"; text = "Creamy, White Chocolate Flavored Milk Coffee Allergen:Milk"; ObjectID = "AtJ-gb-8hB"; */
+"AtJ-gb-8hB.text" = "Kremalı, Beyaz Çikolata Aromalı Sütlü Kahve Alerjen:Süt";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "Ea1-is-7yg"; */
+"Ea1-is-7yg.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ea1-is-7yg"; */
+"Ea1-is-7yg.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Venti"; ObjectID = "H0c-GN-D7C"; */
+"H0c-GN-D7C.configuration.title" = "Büyük";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "H0c-GN-D7C"; */
+"H0c-GN-D7C.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Decaffeinated Espresso"; ObjectID = "Lv8-ed-9TN"; */
+"Lv8-ed-9TN.configuration.title" = "Kafeinsiz Espresso";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lv8-ed-9TN"; */
+"Lv8-ed-9TN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "White Chocolate Mocha"; ObjectID = "SuY-Fe-jwH"; */
+"SuY-Fe-jwH.text" = "White Chocolate Mocha";
+
+/* Class = "UIButton"; configuration.title = "Standart Milk"; ObjectID = "VD5-hf-dgS"; */
+"VD5-hf-dgS.configuration.title" = "Standart Süt";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VD5-hf-dgS"; */
+"VD5-hf-dgS.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Standart Espresso"; ObjectID = "ZRI-p0-Lh8"; */
+"ZRI-p0-Lh8.configuration.title" = "Standart Espresso";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZRI-p0-Lh8"; */
+"ZRI-p0-Lh8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Size Preference"; ObjectID = "aZQ-mF-Svz"; */
+"aZQ-mF-Svz.text" = "Boy Tercihi";
+
+/* Class = "UILabel"; text = "Milk Preference"; ObjectID = "c65-I1-1FB"; */
+"c65-I1-1FB.text" = "Süt Tercihi";
+
+/* Class = "UILabel"; text = "Espresso Preference"; ObjectID = "kXD-11-Myl"; */
+"kXD-11-Myl.text" = "Espresso Tercihi";
+
+/* Class = "UIButton"; configuration.title = "Grande"; ObjectID = "r5N-fp-uAu"; */
+"r5N-fp-uAu.configuration.title" = "Orta";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "r5N-fp-uAu"; */
+"r5N-fp-uAu.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Tall"; ObjectID = "yWY-mE-MRU"; */
+"yWY-mE-MRU.configuration.title" = "Küçük";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yWY-mE-MRU"; */
+"yWY-mE-MRU.normalTitle" = "Button";
