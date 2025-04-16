@@ -1,4 +1,7 @@
 # Homework 1
 
-![English](./screenshots/hw1_english.png)
-![Turkish](./screenshots/hw1_turkish.png)
+<div align="center">
+  <img src="./screenshots/hw1_english.png" alt="English Version" width="200"/>
+  <img src="./screenshots/hw1_turkish.png" alt="Turkish Version" width="200"/>
+</div>
+
