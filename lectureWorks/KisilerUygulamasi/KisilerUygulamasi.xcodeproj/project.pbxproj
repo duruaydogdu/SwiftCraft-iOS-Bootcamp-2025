@@ -16,6 +16,7 @@
 		791FFE8E2DAC373B00440511 /* KisiKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FFE8D2DAC373B00440511 /* KisiKayit.swift */; };
 		791FFE902DAC388800440511 /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FFE8F2DAC388800440511 /* KisiDetay.swift */; };
 		791FFE982DAC3C2200440511 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FFE972DAC3C2200440511 /* Kisiler.swift */; };
+		796037EA2DB01AE80039592F /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796037E92DB01AE80039592F /* KisilerHucre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		791FFE8D2DAC373B00440511 /* KisiKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayit.swift; sourceTree = "<group>"; };
 		791FFE8F2DAC388800440511 /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
 		791FFE972DAC3C2200440511 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		796037E92DB01AE80039592F /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				791FFE952DAC39F400440511 /* screens */,
+				796037E82DB01AB40039592F /* tableView */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -106,6 +109,14 @@
 				791FFE972DAC3C2200440511 /* Kisiler.swift */,
 			);
 			path = entity;
+			sourceTree = "<group>";
+		};
+		796037E82DB01AB40039592F /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				796037E92DB01AE80039592F /* KisilerHucre.swift */,
+			);
+			name = tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				791FFE8E2DAC373B00440511 /* KisiKayit.swift in Sources */,
+				796037EA2DB01AE80039592F /* KisilerHucre.swift in Sources */,
 				791FFE902DAC388800440511 /* KisiDetay.swift in Sources */,
 				791FFE7C2DAC2EAE00440511 /* Anasayfa.swift in Sources */,
 				791FFE782DAC2EAE00440511 /* AppDelegate.swift in Sources */,

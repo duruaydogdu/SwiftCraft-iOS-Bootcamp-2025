@@ -27,6 +27,11 @@ class KisiDetay: UIViewController {
         if let ad = tfKisiAd.text, let tel = tfKisiTel.text, let tempKisi = kisi {
             guncelle(kisi_id: tempKisi.kisi_id!, kisi_ad: ad, kisi_tel: tel)
         }
+        // Bir önceki sayfaya döner.
+        // navigationController?.popViewController(animated: true)
+        
+        // En baştaki sayfaya döner.
+        // navigationController?.popViewController(animated: true)
     }
     
     func guncelle(kisi_id:Int, kisi_ad:String,kisi_tel:String){
