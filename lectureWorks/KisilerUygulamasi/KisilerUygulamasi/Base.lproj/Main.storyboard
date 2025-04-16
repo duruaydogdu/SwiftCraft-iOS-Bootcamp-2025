@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-w6-kGx">
-                                <rect key="frame" x="0.0" y="163" width="393" height="56"/>
+                                <rect key="frame" x="0.0" y="163.33333333333334" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="bUY-qV-rRL"/>
@@ -50,7 +50,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="searchBar" destination="mCk-w6-kGx" id="7U8-aK-b2H"/>
+                        <outlet property="searchBar" destination="mCk-w6-kGx" id="1Ps-Rx-7ID"/>
                         <segue destination="6eE-av-oXM" kind="show" identifier="toDetay" id="wY8-Zd-5Bk"/>
                     </connections>
                 </viewController>
@@ -170,7 +170,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HNu-sO-iWR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="cFu-zk-7Rm">
-                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

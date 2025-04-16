@@ -12,7 +12,7 @@ import UIKit
 // bir sınıfa birden fazla protocol eklenebilir.
 // önemli! -> kalıtımda bir sınıfa sadece bir adet sınıf eklenebilir.
 
-class Anasayfa: UIViewController, UISearchBarDelegate {
+class Anasayfa: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -45,10 +45,10 @@ class Anasayfa: UIViewController, UISearchBarDelegate {
         }
     }
     
-    extension Anasayfa : UISearchBarDelegate {
-        func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-            print("Kişi Ara : \(searchText)")
-        }
+}
+
+extension Anasayfa : UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        print("Kişi Ara : \(searchText)")
     }
-    
 }
