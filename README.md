@@ -1,4 +1,4 @@
-# iOS-Bootcamp
+# SwiftCraft: iOS Development Bootcamp
 
 Bu repo, TechCareer tarafından düzenlenen iOS Bootcamp süresince yaptığım ödevleri, projeleri ve notları içermektedir.
 

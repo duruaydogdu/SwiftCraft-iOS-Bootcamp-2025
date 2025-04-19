@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Anasayfa-->
+        <!--To-Do-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="Anasayfa" customModule="hw2" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PoE-uz-onw"/>
+                    <navigationItem key="navigationItem" title="To-Do" id="PoE-uz-onw"/>
+                    <connections>
+                        <segue destination="Ti5-VW-Bnj" kind="show" id="4V8-Ok-pNt"/>
+                        <segue destination="fFZ-DW-BKx" kind="show" id="gor-bK-PSB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,6 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="d4K-4w-41I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bxn-u4-UMv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cPB-q1-sEE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,6 +54,7 @@
                         <viewLayoutGuide key="safeArea" id="Mba-AQ-j4x"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tLL-3E-BMb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EZU-Zw-KaY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,8 +65,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TSz-Hu-liM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xbo-pS-Gwf">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Xbo-pS-Gwf">
+                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
