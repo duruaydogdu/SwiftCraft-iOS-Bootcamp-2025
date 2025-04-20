@@ -21,8 +21,8 @@ class Anasayfa: UIViewController{
         gorevlerTableView.delegate = self
         gorevlerTableView.dataSource = self
         
-        let g1 = Gorevler(gorev_id: 1, gorev_ad: "su iç")
-        let g2 = Gorevler(gorev_id: 2, gorev_ad: "ödev yap")
+        let g1 = Gorevler(gorev_id: 1, gorev_ad: "Sunum hazırla.")
+        let g2 = Gorevler(gorev_id: 2, gorev_ad: "Market alışverişi yap.")
         gorevlerListesi.append(g1)
         gorevlerListesi.append(g2)
         
