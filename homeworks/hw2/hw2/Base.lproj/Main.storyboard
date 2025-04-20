@@ -99,12 +99,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Görev" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rnd-zT-06w">
-                                <rect key="frame" x="36" y="362.66666666666669" width="321" height="34"/>
+                                <rect key="frame" x="36" y="363.33333333333331" width="321" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="siY-kQ-LjA">
-                                <rect key="frame" x="151" y="532" width="91" height="35"/>
+                                <rect key="frame" x="151" y="517.33333333333337" width="91" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Güncelle"/>
                                 <connections>
@@ -115,12 +115,12 @@
                         <viewLayoutGuide key="safeArea" id="d4K-4w-41I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="d4K-4w-41I" firstAttribute="trailing" secondItem="rnd-zT-06w" secondAttribute="trailing" constant="36" id="0CA-iR-cjP"/>
-                            <constraint firstItem="rnd-zT-06w" firstAttribute="top" secondItem="d4K-4w-41I" secondAttribute="top" constant="207.66666666666669" id="IZc-IL-jqj"/>
-                            <constraint firstItem="rnd-zT-06w" firstAttribute="leading" secondItem="d4K-4w-41I" secondAttribute="leading" constant="36" id="Iru-UA-TQD"/>
-                            <constraint firstItem="d4K-4w-41I" firstAttribute="bottom" secondItem="siY-kQ-LjA" secondAttribute="bottom" constant="251" id="KuN-EF-aNr"/>
-                            <constraint firstItem="rnd-zT-06w" firstAttribute="centerX" secondItem="htw-jF-EpL" secondAttribute="centerX" id="rAn-cz-uHq"/>
-                            <constraint firstItem="rnd-zT-06w" firstAttribute="centerX" secondItem="siY-kQ-LjA" secondAttribute="centerX" id="yEP-XE-ycW"/>
+                            <constraint firstItem="siY-kQ-LjA" firstAttribute="top" secondItem="rnd-zT-06w" secondAttribute="bottom" constant="120" id="8jD-9g-t4m"/>
+                            <constraint firstItem="rnd-zT-06w" firstAttribute="leading" secondItem="d4K-4w-41I" secondAttribute="leading" constant="36" id="Dmk-iU-gPA"/>
+                            <constraint firstItem="siY-kQ-LjA" firstAttribute="centerX" secondItem="htw-jF-EpL" secondAttribute="centerX" id="QcO-dj-y2i"/>
+                            <constraint firstItem="d4K-4w-41I" firstAttribute="trailing" secondItem="rnd-zT-06w" secondAttribute="trailing" constant="36" id="QkB-Ak-SHd"/>
+                            <constraint firstItem="rnd-zT-06w" firstAttribute="top" secondItem="d4K-4w-41I" secondAttribute="top" constant="200" id="jJ6-EN-WkZ"/>
+                            <constraint firstItem="rnd-zT-06w" firstAttribute="centerX" secondItem="htw-jF-EpL" secondAttribute="centerX" id="pZz-Ow-RzQ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Görev Düzenle" id="bxn-u4-UMv"/>
@@ -141,12 +141,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Görev" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ssH-Y7-6gr">
-                                <rect key="frame" x="36" y="356" width="321" height="34"/>
+                                <rect key="frame" x="36" y="363.33333333333331" width="321" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Er-uL-ksZ">
-                                <rect key="frame" x="168.66666666666666" y="510" width="55.666666666666657" height="35"/>
+                                <rect key="frame" x="168.66666666666666" y="517.33333333333337" width="55.666666666666657" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ekle"/>
                                 <connections>
@@ -160,7 +160,7 @@
                             <constraint firstItem="9Er-uL-ksZ" firstAttribute="centerX" secondItem="wNa-nK-6fW" secondAttribute="centerX" id="20H-pN-xp7"/>
                             <constraint firstItem="Mba-AQ-j4x" firstAttribute="trailing" secondItem="ssH-Y7-6gr" secondAttribute="trailing" constant="36" id="Ht0-mh-3Am"/>
                             <constraint firstItem="ssH-Y7-6gr" firstAttribute="leading" secondItem="Mba-AQ-j4x" secondAttribute="leading" constant="36" id="S9T-YV-byR"/>
-                            <constraint firstItem="ssH-Y7-6gr" firstAttribute="top" secondItem="Mba-AQ-j4x" secondAttribute="top" constant="192.66666666666669" id="SJd-l2-RcS"/>
+                            <constraint firstItem="ssH-Y7-6gr" firstAttribute="top" secondItem="Mba-AQ-j4x" secondAttribute="top" constant="200" id="SJd-l2-RcS"/>
                             <constraint firstItem="9Er-uL-ksZ" firstAttribute="top" secondItem="ssH-Y7-6gr" secondAttribute="bottom" constant="120" id="qzl-UN-xkv"/>
                             <constraint firstItem="ssH-Y7-6gr" firstAttribute="centerX" secondItem="wNa-nK-6fW" secondAttribute="centerX" id="sWh-3C-IWH"/>
                         </constraints>
