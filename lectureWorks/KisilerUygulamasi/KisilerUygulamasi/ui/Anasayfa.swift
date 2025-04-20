@@ -16,7 +16,8 @@ class Anasayfa: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var kisilerTableView: UITableView!
-    var kisilerListesi = [Kisiler]() // veri kümesi
+    var kisilerListesi = [Kisiler]() // veri kümesi, diğer kisilerListesi ile karıştırma!!
+    var anasayfaViewModel = AnasayfaViewModel() // viewModel'a erişiyoruz.
     
     
     override func viewDidLoad() {
@@ -29,20 +30,18 @@ class Anasayfa: UIViewController {
         kisilerTableView.delegate = self
         kisilerTableView.dataSource = self
 
-        
-        // veri kümesi oluşturma
-        let k1 = Kisiler(kisi_id: 1, kisi_ad: "Duru", kisi_tel: "1111")
-        let k2 = Kisiler(kisi_id: 2, kisi_ad: "Beyza", kisi_tel: "2222")
-        let k3 = Kisiler(kisi_id: 3, kisi_ad: "İlknur", kisi_tel: "3333")
-        kisilerListesi.append(k1) // append ile ekleme işlevi
-        kisilerListesi.append(k2)
-        kisilerListesi.append(k3)
+        _ = anasayfaViewModel.kisilerListesi.subscribe(onNext: { liste in  // listen etme kısmı, tetikleneni burada dinlemiş oluyoruz.
+            self.kisilerListesi = liste
+            self.kisilerTableView.reloadData()
+            
+        })
     }
     
     override func viewWillAppear(_ animated: Bool) {
         // Sayfa her göründüğünde çalışır.
         // Sayfaya geri dönüldüğünü anlayabiliriz.
         print("viewWillAppear çalıştı")
+        anasayfaViewModel.kisileriYukle()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -71,7 +70,7 @@ class Anasayfa: UIViewController {
 // aramayla ilgili kısımları gruplamak için bu extension'ı oluşturdum.
 extension Anasayfa : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Kişi Ara : \(searchText)")
+        anasayfaViewModel.ara(aramaKelimesi: searchText)
     }
 }
 
@@ -113,7 +112,7 @@ extension Anasayfa : UITableViewDelegate, UITableViewDataSource {
             alert.addAction(iptalAction)
             
             let evetAction = UIAlertAction(title: "Evet", style: .destructive){ action in
-                print("Kişi Sil : \(kisi.kisi_id!)")
+                self.anasayfaViewModel.sil(kisi_id: kisi.kisi_id!)
             }
             alert.addAction(evetAction)
             

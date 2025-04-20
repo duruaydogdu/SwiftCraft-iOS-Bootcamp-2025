@@ -15,6 +15,7 @@ class KisiKayit: UIViewController {
 
     @IBOutlet weak var tfKisiAd: UITextField!
     @IBOutlet weak var tfKisiTel: UITextField!
+    var kisiKayitViewModel = KisiKayitViewModel() // viewModel'a erişiyoruz.
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +25,7 @@ class KisiKayit: UIViewController {
    
     @IBAction func buttonKaydet(_ sender: Any) {
         if let ad = tfKisiAd.text, let tel = tfKisiTel.text { // if let optional binding
-            kaydet(kisi_ad: ad, kisi_tel: tel)
+            kisiKayitViewModel.kaydet(kisi_ad: ad, kisi_tel: tel)
         }
-    }
-    
-    func kaydet(kisi_ad:String, kisi_tel:String) {
-        print("Kişi kaydet : \(kisi_ad) - \(kisi_tel)")
     }
 }
