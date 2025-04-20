@@ -8,22 +8,22 @@
 import UIKit
 
 class KayitSayfa: UIViewController {
-
+    
+    @IBOutlet weak var tfGorevAd: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    
+    @IBAction func buttonEkle(_ sender: Any) {
+        if let ad = tfGorevAd.text { // if let optional binding
+            ekle(gorev_ad: ad)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func ekle(gorev_ad:String) {
+        print("Görev Ekle: \(gorev_ad)")
     }
-    */
-
+    
 }

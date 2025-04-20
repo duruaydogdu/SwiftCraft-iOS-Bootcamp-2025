@@ -9,21 +9,28 @@ import UIKit
 
 class DetaySayfa: UIViewController {
 
+    @IBOutlet weak var tfGorevAd: UITextField!
+    
+    var gorev:Gorevler?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let tempGorev = gorev {
+            tfGorevAd.text = tempGorev.gorev_ad
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func buttonGuncelle(_ sender: Any) {
+        if let ad = tfGorevAd.text, let guncellenecekGorev = gorev {
+                guncelle(gorev_id: guncellenecekGorev.gorev_id!, gorev_ad: ad)
+            }
     }
-    */
+    
+    func guncelle(gorev_id:Int, gorev_ad:String){
+        print("Görev Güncelle : \(gorev_id) - \(gorev_ad)")
+        
+    }
 
 }

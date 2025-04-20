@@ -16,6 +16,8 @@
 		7960380E2DB1077A0039592F /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960380D2DB1077A0039592F /* Anasayfa.swift */; };
 		796038102DB107950039592F /* KayitSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7960380F2DB107950039592F /* KayitSayfa.swift */; };
 		796038122DB107BE0039592F /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796038112DB107BE0039592F /* DetaySayfa.swift */; };
+		7982A34D2DB3ED0200FD764B /* Gorevler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7982A34C2DB3ED0200FD764B /* Gorevler.swift */; };
+		7982A3532DB3EDD900FD764B /* GorevlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7982A3522DB3EDD900FD764B /* GorevlerHucre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7960380D2DB1077A0039592F /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		7960380F2DB107950039592F /* KayitSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitSayfa.swift; sourceTree = "<group>"; };
 		796038112DB107BE0039592F /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		7982A34C2DB3ED0200FD764B /* Gorevler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gorevler.swift; sourceTree = "<group>"; };
+		7982A3522DB3EDD900FD764B /* GorevlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorevlerHucre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				796037F72DB1060B0039592F /* AppDelegate.swift */,
 				796037F92DB1060B0039592F /* SceneDelegate.swift */,
 				796037FB2DB1060B0039592F /* ViewController.swift */,
+				7982A34B2DB3ECEA00FD764B /* data */,
 				7960380B2DB107190039592F /* ui */,
 				796038002DB1060E0039592F /* Assets.xcassets */,
 				796037FD2DB1060B0039592F /* Main.storyboard */,
@@ -77,6 +82,7 @@
 		7960380B2DB107190039592F /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				7982A3492DB3EC7300FD764B /* tableView */,
 				7960380C2DB107320039592F /* screens */,
 			);
 			path = ui;
@@ -90,6 +96,30 @@
 				796038112DB107BE0039592F /* DetaySayfa.swift */,
 			);
 			path = screens;
+			sourceTree = "<group>";
+		};
+		7982A3492DB3EC7300FD764B /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				7982A3522DB3EDD900FD764B /* GorevlerHucre.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		7982A34B2DB3ECEA00FD764B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7982A34F2DB3ED6D00FD764B /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		7982A34F2DB3ED6D00FD764B /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				7982A34C2DB3ED0200FD764B /* Gorevler.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +196,8 @@
 				796037FC2DB1060B0039592F /* ViewController.swift in Sources */,
 				7960380E2DB1077A0039592F /* Anasayfa.swift in Sources */,
 				796037F82DB1060B0039592F /* AppDelegate.swift in Sources */,
+				7982A3532DB3EDD900FD764B /* GorevlerHucre.swift in Sources */,
+				7982A34D2DB3ED0200FD764B /* Gorevler.swift in Sources */,
 				796038102DB107950039592F /* KayitSayfa.swift in Sources */,
 				796038122DB107BE0039592F /* DetaySayfa.swift in Sources */,
 				796037FA2DB1060B0039592F /* SceneDelegate.swift in Sources */,
