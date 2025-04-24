@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 
+
 class AnasayfaViewModel {
     var kisilerRepository = KisilerRepository() // repository'nin nesnesini oluşturduk, erişim sağlayabilmek için.
     var kisilerListesi = BehaviorSubject<[Kisiler]>(value: [Kisiler]()) // value -> varsayılan değerdir!! burada boş bir dizi oluşturduk çökmemesi için.
