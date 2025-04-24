@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KingfisherKullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLP-0x-8Y3">
+                                <rect key="frame" x="159" y="513" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonResim1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uNY-Qf-3cm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nf-Aa-IKT">
+                                <rect key="frame" x="159" y="598" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonResim2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgJ-Ci-MGi"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JEP-aH-ed1">
+                                <rect key="frame" x="62" y="153" width="269" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="PeF-ZY-Wzz"/>
+                                    <constraint firstAttribute="height" constant="310" id="idV-Yo-G7e"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Nf-Aa-IKT" firstAttribute="top" secondItem="XLP-0x-8Y3" secondAttribute="bottom" constant="50" id="09x-kK-JeL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JEP-aH-ed1" secondAttribute="trailing" constant="62" id="4me-JM-7YK"/>
+                            <constraint firstItem="XLP-0x-8Y3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="831-rD-bpN"/>
+                            <constraint firstItem="XLP-0x-8Y3" firstAttribute="top" secondItem="JEP-aH-ed1" secondAttribute="bottom" constant="50" id="JrB-xr-Dbg"/>
+                            <constraint firstItem="JEP-aH-ed1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nic-8C-qrr"/>
+                            <constraint firstItem="JEP-aH-ed1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="ezb-bH-LR5"/>
+                            <constraint firstItem="JEP-aH-ed1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="jeR-f0-f1r"/>
+                            <constraint firstItem="9Nf-Aa-IKT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nkT-cm-wyZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="JEP-aH-ed1" id="pUP-0d-AiZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
