@@ -1,0 +1,30 @@
+//
+//  AnasayfaViewModel.swift
+//  hw3
+//
+//  Created by Duru Aydoğdu on 24.04.2025.
+//
+
+import Foundation
+import RxSwift
+
+class AnasayfaViewModel {
+    var gorevlerRepository = GorevlerRepository()
+    var gorevlerListesi = BehaviorSubject<[Gorevler]>(value: [Gorevler]())
+    
+    init() {
+        gorevlerListesi = gorevlerRepository.gorevlerListesi
+    }
+    
+    func ara(aramaKelimesi:String) {
+        gorevlerRepository.ara(aramaKelimesi: aramaKelimesi)
+    }
+    
+    func sil(gorev_id:Int){
+        gorevlerRepository.sil(gorev_id: gorev_id)
+    }
+    
+    func gorevleriYukle(){
+        gorevlerRepository.gorevleriYukle()
+    }
+}

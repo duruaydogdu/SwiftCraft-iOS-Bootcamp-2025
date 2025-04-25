@@ -13,6 +13,17 @@
 		79E401F82DBA709C004E4C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E401F62DBA709C004E4C7D /* Main.storyboard */; };
 		79E401FA2DBA709D004E4C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E401F92DBA709D004E4C7D /* Assets.xcassets */; };
 		79E401FD2DBA709D004E4C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E401FB2DBA709D004E4C7D /* LaunchScreen.storyboard */; };
+		79E402282DBA8643004E4C7D /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402272DBA8643004E4C7D /* Anasayfa.swift */; };
+		79E402312DBA86DB004E4C7D /* KayitSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402302DBA86DB004E4C7D /* KayitSayfa.swift */; };
+		79E402332DBA86F2004E4C7D /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402322DBA86F2004E4C7D /* DetaySayfa.swift */; };
+		79E402352DBA881F004E4C7D /* Gorevler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402342DBA881F004E4C7D /* Gorevler.swift */; };
+		79E402372DBA883C004E4C7D /* GorevlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402362DBA883C004E4C7D /* GorevlerHucre.swift */; };
+		79E402392DBA885A004E4C7D /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E402382DBA885A004E4C7D /* AnasayfaViewModel.swift */; };
+		79E4023B2DBA886D004E4C7D /* KayitSayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4023A2DBA886D004E4C7D /* KayitSayfaViewModel.swift */; };
+		79E4023D2DBA8883004E4C7D /* DetaySayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4023C2DBA8883004E4C7D /* DetaySayfaViewModel.swift */; };
+		79E4023F2DBA88A1004E4C7D /* GorevlerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4023E2DBA88A1004E4C7D /* GorevlerRepository.swift */; };
+		79E402452DBBAA23004E4C7D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 79E402442DBBAA23004E4C7D /* RxCocoa */; };
+		79E402472DBBAA23004E4C7D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 79E402462DBBAA23004E4C7D /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,15 @@
 		79E401F92DBA709D004E4C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E401FC2DBA709D004E4C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79E401FE2DBA709D004E4C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E402272DBA8643004E4C7D /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		79E402302DBA86DB004E4C7D /* KayitSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitSayfa.swift; sourceTree = "<group>"; };
+		79E402322DBA86F2004E4C7D /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		79E402342DBA881F004E4C7D /* Gorevler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gorevler.swift; sourceTree = "<group>"; };
+		79E402362DBA883C004E4C7D /* GorevlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorevlerHucre.swift; sourceTree = "<group>"; };
+		79E402382DBA885A004E4C7D /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		79E4023A2DBA886D004E4C7D /* KayitSayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitSayfaViewModel.swift; sourceTree = "<group>"; };
+		79E4023C2DBA8883004E4C7D /* DetaySayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfaViewModel.swift; sourceTree = "<group>"; };
+		79E4023E2DBA88A1004E4C7D /* GorevlerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorevlerRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E402472DBBAA23004E4C7D /* RxSwift in Frameworks */,
+				79E402452DBBAA23004E4C7D /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +81,77 @@
 				79E401F02DBA709C004E4C7D /* AppDelegate.swift */,
 				79E401F22DBA709C004E4C7D /* SceneDelegate.swift */,
 				79E401F42DBA709C004E4C7D /* ViewController.swift */,
+				79E4022B2DBA866A004E4C7D /* data */,
+				79E402292DBA8645004E4C7D /* ui */,
 				79E401F62DBA709C004E4C7D /* Main.storyboard */,
 				79E401F92DBA709D004E4C7D /* Assets.xcassets */,
 				79E401FB2DBA709D004E4C7D /* LaunchScreen.storyboard */,
 				79E401FE2DBA709D004E4C7D /* Info.plist */,
 			);
 			path = hw3;
+			sourceTree = "<group>";
+		};
+		79E402292DBA8645004E4C7D /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				79E4022F2DBA86B1004E4C7D /* viewModel */,
+				79E4022E2DBA86A8004E4C7D /* tableView */,
+				79E4022A2DBA8653004E4C7D /* screens */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		79E4022A2DBA8653004E4C7D /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				79E402272DBA8643004E4C7D /* Anasayfa.swift */,
+				79E402302DBA86DB004E4C7D /* KayitSayfa.swift */,
+				79E402322DBA86F2004E4C7D /* DetaySayfa.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		79E4022B2DBA866A004E4C7D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				79E4022D2DBA8684004E4C7D /* repo */,
+				79E4022C2DBA867A004E4C7D /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		79E4022C2DBA867A004E4C7D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				79E402342DBA881F004E4C7D /* Gorevler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		79E4022D2DBA8684004E4C7D /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				79E4023E2DBA88A1004E4C7D /* GorevlerRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		79E4022E2DBA86A8004E4C7D /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				79E402362DBA883C004E4C7D /* GorevlerHucre.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		79E4022F2DBA86B1004E4C7D /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				79E402382DBA885A004E4C7D /* AnasayfaViewModel.swift */,
+				79E4023A2DBA886D004E4C7D /* KayitSayfaViewModel.swift */,
+				79E4023C2DBA8883004E4C7D /* DetaySayfaViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +170,10 @@
 			dependencies = (
 			);
 			name = hw3;
+			packageProductDependencies = (
+				79E402442DBBAA23004E4C7D /* RxCocoa */,
+				79E402462DBBAA23004E4C7D /* RxSwift */,
+			);
 			productName = hw3;
 			productReference = 79E401ED2DBA709C004E4C7D /* hw3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 79E401E42DBA709C004E4C7D;
+			packageReferences = (
+				79E402432DBBAA23004E4C7D /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 79E401EE2DBA709C004E4C7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +233,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E401F52DBA709C004E4C7D /* ViewController.swift in Sources */,
+				79E4023F2DBA88A1004E4C7D /* GorevlerRepository.swift in Sources */,
+				79E402282DBA8643004E4C7D /* Anasayfa.swift in Sources */,
 				79E401F12DBA709C004E4C7D /* AppDelegate.swift in Sources */,
+				79E402372DBA883C004E4C7D /* GorevlerHucre.swift in Sources */,
+				79E4023B2DBA886D004E4C7D /* KayitSayfaViewModel.swift in Sources */,
+				79E402352DBA881F004E4C7D /* Gorevler.swift in Sources */,
+				79E402392DBA885A004E4C7D /* AnasayfaViewModel.swift in Sources */,
+				79E402312DBA86DB004E4C7D /* KayitSayfa.swift in Sources */,
+				79E402332DBA86F2004E4C7D /* DetaySayfa.swift in Sources */,
 				79E401F32DBA709C004E4C7D /* SceneDelegate.swift in Sources */,
+				79E4023D2DBA8883004E4C7D /* DetaySayfaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +464,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79E402432DBBAA23004E4C7D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79E402442DBBAA23004E4C7D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79E402432DBBAA23004E4C7D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		79E402462DBBAA23004E4C7D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79E402432DBBAA23004E4C7D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79E401E52DBA709C004E4C7D /* Project object */;
 }
