@@ -13,6 +13,7 @@ class AnasayfaViewModel {
     var gorevlerListesi = BehaviorSubject<[Gorevler]>(value: [Gorevler]())
     
     init() {
+        veritabaniKopyala()
         gorevlerListesi = gorevlerRepository.gorevlerListesi
     }
     
@@ -26,5 +27,19 @@ class AnasayfaViewModel {
     
     func gorevleriYukle(){
         gorevlerRepository.gorevleriYukle()
+    }
+    
+    func veritabaniKopyala(){
+            let bundleYolu = Bundle.main.path(forResource: "rehber", ofType: ".sqlite")
+            let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+            let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
+            let fileManager = FileManager.default
+            if fileManager.fileExists(atPath: kopyalanacakYer.path){
+                print("Veritabanı zaten var")
+            }else{
+                do{
+                    try fileManager.copyItem(atPath: bundleYolu!, toPath: kopyalanacakYer.path)
+                }catch{}
+            }
     }
 }
