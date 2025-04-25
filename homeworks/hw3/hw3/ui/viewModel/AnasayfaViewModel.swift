@@ -30,9 +30,9 @@ class AnasayfaViewModel {
     }
     
     func veritabaniKopyala(){
-            let bundleYolu = Bundle.main.path(forResource: "rehber", ofType: ".sqlite")
+            let bundleYolu = Bundle.main.path(forResource: "gorevDB", ofType: "sqlite")
             let hedefYol = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-            let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("rehber.sqlite")
+            let kopyalanacakYer = URL(fileURLWithPath: hedefYol).appendingPathComponent("gorevDB.sqlite")
             let fileManager = FileManager.default
             if fileManager.fileExists(atPath: kopyalanacakYer.path){
                 print("Veritabanı zaten var")

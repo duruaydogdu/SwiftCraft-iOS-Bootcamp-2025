@@ -24,12 +24,12 @@
 		79E4023F2DBA88A1004E4C7D /* GorevlerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E4023E2DBA88A1004E4C7D /* GorevlerRepository.swift */; };
 		79E402452DBBAA23004E4C7D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 79E402442DBBAA23004E4C7D /* RxCocoa */; };
 		79E402472DBBAA23004E4C7D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 79E402462DBBAA23004E4C7D /* RxSwift */; };
-		79E402602DBBD366004E4C7D /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 79E4025F2DBBD366004E4C7D /* rehber.sqlite */; };
 		79E4026D2DBBD3A5004E4C7D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E402632DBBD3A4004E4C7D /* FMDatabaseAdditions.m */; };
 		79E4026E2DBBD3A5004E4C7D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E402642DBBD3A5004E4C7D /* FMDatabaseQueue.m */; };
 		79E4026F2DBBD3A5004E4C7D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E402672DBBD3A5004E4C7D /* FMResultSet.m */; };
 		79E402702DBBD3A5004E4C7D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E4026A2DBBD3A5004E4C7D /* FMDatabase.m */; };
 		79E402712DBBD3A5004E4C7D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E4026C2DBBD3A5004E4C7D /* FMDatabasePool.m */; };
+		79E402752DBBDF4D004E4C7D /* gorevDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 79E402742DBBDF4D004E4C7D /* gorevDB.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,6 @@
 		79E4023A2DBA886D004E4C7D /* KayitSayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitSayfaViewModel.swift; sourceTree = "<group>"; };
 		79E4023C2DBA8883004E4C7D /* DetaySayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfaViewModel.swift; sourceTree = "<group>"; };
 		79E4023E2DBA88A1004E4C7D /* GorevlerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorevlerRepository.swift; sourceTree = "<group>"; };
-		79E4025F2DBBD366004E4C7D /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rehber.sqlite; sourceTree = "<group>"; };
 		79E402612DBBD3A4004E4C7D /* hw3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hw3-Bridging-Header.h"; sourceTree = "<group>"; };
 		79E402622DBBD3A4004E4C7D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		79E402632DBBD3A4004E4C7D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		79E4026B2DBBD3A5004E4C7D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		79E4026C2DBBD3A5004E4C7D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		79E402732DBBD435004E4C7D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		79E402742DBBDF4D004E4C7D /* gorevDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorevDB.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 				79E401F62DBA709C004E4C7D /* Main.storyboard */,
 				79E401F92DBA709D004E4C7D /* Assets.xcassets */,
 				79E401FB2DBA709D004E4C7D /* LaunchScreen.storyboard */,
+				79E402742DBBDF4D004E4C7D /* gorevDB.sqlite */,
 				79E401FE2DBA709D004E4C7D /* Info.plist */,
-				79E4025F2DBBD366004E4C7D /* rehber.sqlite */,
 				79E402622DBBD3A4004E4C7D /* FMDatabase.h */,
 				79E4026A2DBBD3A5004E4C7D /* FMDatabase.m */,
 				79E402692DBBD3A5004E4C7D /* FMDatabaseAdditions.h */,
@@ -263,9 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E401FD2DBA709D004E4C7D /* LaunchScreen.storyboard in Resources */,
-				79E402602DBBD366004E4C7D /* rehber.sqlite in Resources */,
 				79E401FA2DBA709D004E4C7D /* Assets.xcassets in Resources */,
 				79E401F82DBA709C004E4C7D /* Main.storyboard in Resources */,
+				79E402752DBBDF4D004E4C7D /* gorevDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
