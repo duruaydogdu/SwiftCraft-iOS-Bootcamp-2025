@@ -2,7 +2,7 @@
 
 ---
 
-Bu ödevde, UIKit kullanılarak basit bir yapılacaklar listesi (To-Do) uygulaması geliştirildi.
+Bu ödevde, UIKit kullanılarak bir yapılacaklar listesi (To-Do) uygulaması geliştirildi.
 
 
 ## Özellikler
