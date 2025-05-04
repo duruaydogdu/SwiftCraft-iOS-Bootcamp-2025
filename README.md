@@ -1,15 +1,15 @@
 # SwiftCraft: iOS Development Bootcamp
 
-Bu repo, TechCareer tarafından düzenlenen iOS Bootcamp süresince yaptığım ödevleri, projeleri ve notları içermektedir.
+This repository contains the assignments, projects, and notes I completed during the iOS Bootcamp organized by TechCareer.
 
-**Eğitmen:** Kasım Adalan  
-**Organizasyon:** TechCareer
+**Instructor:** Kasım Adalan  
+**Organization:** TechCareer
 
 ---
 
-## İçerik
+## Contents
 
-- Derste yapılan uygulamalar
-- Ödevler ve projeler
+- In-class exercises
+- Assignments and projects
 
 
